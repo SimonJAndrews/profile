@@ -1,0 +1,35 @@
+
+:root{
+--header:  #24527a;
+--background: #5dacbd; 
+--color2:#a7bcb9; 
+--color3:#a7bcb9; 
+}
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+
+.first-color { 
+	background: #5dacbd; 
+}
+	
+.second-color { 
+	background: #24527a; 
+}
+
+.third-color { 
+	background: #a7bcb9; 
+}
+
+.fourth-color { 
+	background: #e0ebeb; 
+}

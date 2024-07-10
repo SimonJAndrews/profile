@@ -4,7 +4,9 @@
 --background: #5dacbd; 
 --color2:#a7bcb9; 
 --color3:#a7bcb9; 
+--color4:#f6fffe; 
 }
+
 
 
 *{
@@ -15,21 +17,60 @@
 body{
     padding: 0;
     margin:0;
+    width: 100%;
 }
 
-
-.first-color { 
-	background: #5dacbd; 
-}
-	
-.second-color { 
-	background: #24527a; 
-}
-
-.third-color { 
-	background: #a7bcb9; 
+#navigation{
+    width:100%;
+    height:60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    background-color: var(--header);
+    border-bottom: solid 7px var(--background);
 }
 
-.fourth-color { 
-	background: #e0ebeb; 
+ul {
+    display: flex;
+    align-items: center;
+    gap:30px;
+    list-style: none;
+    color:var(--color4)
 }
+
+#logo{
+    padding-right: 770px;
+}
+
+#image{
+    background-image: url('images/6720\ copy.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    height:250px;
+    width:100%;
+    padding:0;
+    margin:0;
+    background-size: cover;
+    border-bottom: solid 7px var(--background);
+}
+
+#profile-pic{
+    
+    position: absolute;
+    top: 175px; left: 100px;
+    height:255px;
+    width:255px;
+    border-radius: 50%;
+    border: solid 6px var(--background);
+    
+}
+
+    
+#info{
+    height: 700px;
+    width:100vw;
+    padding:0;
+    margin:0;
+    background-color: var(--header);
+}
+
